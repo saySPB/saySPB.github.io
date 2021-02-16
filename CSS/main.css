@@ -416,7 +416,7 @@ footer .fa-vk {
           width: 720px;
       }
       .watsapp {
-            margin-left: 100px;
+            margin-left: 40px;
           }
       main, footer {
             margin-right: -100px;
@@ -434,6 +434,14 @@ footer .fa-vk {
       .hr-middle {
         margin-left: -14%;
       }
+      .carousel-element img {
+        width: 450px;
+      }
+      .carousel-hider {
+        width: 450px;
+
+      }
+
   }
   
   /* 576px - 768px */
@@ -462,6 +470,16 @@ footer .fa-vk {
         width: 400px;
         margin-left: 20px;        
       }
+      .watsapp {
+        left: 0;
+      }
+      .carousel-element img {
+        width: 400px;
+      }
+      .carousel-hider {
+        width: 400px;
+
+      }
   }
   
   /* 320px - 576px */
@@ -479,15 +497,20 @@ footer .fa-vk {
         width: 350px;
       }
       .watsapp {
-        margin-left: 50px;
+        opacity: 0;
       }
       .carousel-element img {
-
         width: 400px;
       }
       .carousel-hider {
         width: 400px;
-
+        margin-left: 20px;
+      }
+      body {
+        width: 100%;
+      }
+      footer {
+        margin-left: -15%;
       }
   }
 
