@@ -497,6 +497,7 @@ footer .fa-vk {
       }
       h4 {
         font-size: 7px;
+
       }
       h2 {
         font-size: 20px;
@@ -518,7 +519,7 @@ footer .fa-vk {
 
       .carousel-hider {
         width: 350px;
-        margin-left: 20px;
+        margin-left: 5px;
       }
 
       body {
