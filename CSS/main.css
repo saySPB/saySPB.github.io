@@ -398,12 +398,15 @@ footer .fa-vk {
         display: flex;
         margin-left: 15%;
       }
+
       footer ul{
         left: 35%;
       }
+
       .watsapp {
         margin-left: 150px;
       }
+
       .carousel-arrow-right, .carousel-arrow-left {
         margin-left: 0;
         margin-right: 0;
@@ -415,33 +418,38 @@ footer .fa-vk {
       .body {
           width: 720px;
       }
-      .watsapp {
-            margin-left: 40px;
-          }
-      main, footer {
-            margin-right: -100px;
 
-          }
-      .carousel {
-            margin-left: 5%;
+      .watsapp {
+         margin-left: 40px;
       }
+
+      main, footer {
+        margin-right: -100px;
+      }
+
+      .carousel {
+       margin-left: 5%;
+      }
+
       .pesontedan, footer  {
         margin-left: -7%;
       }
+
       .link {
         margin-left: -18%;
       }
+
       .hr-middle {
         margin-left: -14%;
       }
+
       .carousel-element img {
         width: 450px;
       }
+
       .carousel-hider {
         width: 450px;
-
       }
-
   }
   
   /* 576px - 768px */
@@ -487,8 +495,11 @@ footer .fa-vk {
       body {
           width:90%;
       }
-      h3 {
-        font-size: 15px;
+      h4 {
+        font-size: 7px;
+      }
+      h2 {
+        font-size: 20px;
       }
       .carousel {
         margin-top: 7%;
@@ -496,19 +507,24 @@ footer .fa-vk {
       .booking {
         width: 350px;
       }
+
       .watsapp {
         opacity: 0;
       }
+
       .carousel-element img {
-        width: 400px;
+        width: 350px;
       }
+
       .carousel-hider {
-        width: 400px;
+        width: 350px;
         margin-left: 20px;
       }
+
       body {
         width: 100%;
       }
+
       footer {
         margin-left: -15%;
       }
