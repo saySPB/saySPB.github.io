@@ -497,7 +497,6 @@ footer .fa-vk {
       }
       h4 {
         font-size: 7px;
-
       }
       h2 {
         font-size: 20px;
@@ -506,19 +505,23 @@ footer .fa-vk {
         margin-top: 7%;
       }
       .booking {
-        width: 350px;
+        width: 300px;
+        margin-left: 5%;      
+      } 
+      .navigaonusing{
+        width: 300px;
+        margin-left: 12%;      }
       }
-
       .watsapp {
         opacity: 0;
       }
 
       .carousel-element img {
-        width: 350px;
+        width: 320px;
       }
 
       .carousel-hider {
-        width: 350px;
+        width: 320px;
         margin-left: 5px;
       }
 
