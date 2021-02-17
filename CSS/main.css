@@ -492,8 +492,8 @@ footer .fa-vk {
   
   /* 320px - 576px */
   @media screen and (max-width: 576px) {
-      body {
-          width:90%;
+      body,main, footer {
+          width:100%;
       }
       h4 {
         font-size: 7px;
@@ -505,23 +505,23 @@ footer .fa-vk {
         margin-top: 7%;
       }
       .booking {
-        width: 300px;
+        width: 350px;
         margin-left: 5%;      
       } 
       .navigaonusing{
         width: 300px;
-        margin-left: 12%;      }
+        margin-left: 22%;      }
       }
       .watsapp {
         opacity: 0;
       }
 
       .carousel-element img {
-        width: 320px;
+        width: 400px;
       }
 
       .carousel-hider {
-        width: 320px;
+        width: 400px;
         margin-left: 5px;
       }
 
