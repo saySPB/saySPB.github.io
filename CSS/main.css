@@ -6,10 +6,10 @@ body {
   position: relative;
   font-family: 'Pacifico', cursive;
   font-size: 18px;
-  background: #f8f7f2;
+  background: #fbf1f2;
  }
  article {
-  background: url('../img/ground.jpg') no-repeat top center;
+  background: url('../img/vizitka-2.jpg') no-repeat top center;
   background-attachment: fixed;
  }
 
@@ -507,7 +507,8 @@ footer .fa-vk {
       width: 350px;
     }
     .watsapp {
-opacity: 0;
+      left: 60%;
+      bottom: 10%;
     }
     .carousel-element img {
       width: 170px;
