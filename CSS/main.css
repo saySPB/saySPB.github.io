@@ -10,7 +10,7 @@ body {
  }
  article {
   background: url('../img/ground.jpg') no-repeat top center;
-  
+  background-attachment: fixed;
  }
 
 h1, h2, h4, h5 {
@@ -30,14 +30,15 @@ h1, h2, h4, h5 {
   text-transform: uppercase;
 
 }
+
 .watsapp {
   position: fixed;
-  left: 70%;
-  bottom: 80%;
+  left: 80%;
+  bottom: 10%;
   font-size: 2em;
   background:  #109c4d;
   border-radius: 50%;
-  padding: 15px 25px;
+  padding: 10px 25px;
 }
 .watsapp .fa {
   color: white;
@@ -486,18 +487,151 @@ footer .fa-vk {
    /* 320px - 576px */
    @media screen and (max-width: 576px) {
     body {
-        width:100%;
+        width: 100%;
     }
-    h3 {
-      font-size: 16px;
+    footer ul{
+      margin-left: -10%;
+      padding-left: 0;
+    }
+    .flower {
+      top: ;
+    }
+    h3, h2 {
+      font-size: 17px;
+      text-align: center;
     }
     .carousel {
-      margin-top: 7%;
+      margin: 0 0 40px 10px;
     }
     .booking {
-      width: 450px;
+      width: 350px;
     }
     .watsapp {
-      left: 80%;
+opacity: 0;
     }
+    .carousel-element img {
+      width: 170px;
+      padding: 0;
+    }
+    .carousel-hider {
+      width: 360px;
+    }
+    .info {
+      margin-left: 30px;
+    }
+
+    .carousel-arrow-left, .carousel-arrow-right {
+      top: 2%;
+      margin-top: 55%;
+      margin-left: 5%;
+    }
+    .flower h2 {
+      visibility: collapse;
+    }
+}
+
+/* click */
+a.obl{
+  position: relative;
+  display:block;
+  color: rgb(44, 109, 54);
+  text-decoration: none;
+  text-align:center;
+font-family: 'Henny Penny', cursive;
+  font-size: 22px;
+  letter-spacing: 2px;
+  border-bottom: 2px solid transparent;
+  border-radius: 30%;
+}
+
+
+a.obl:hover,a.obl:focus{
+  outline: none;
+
+}
+
+a.obl::before, a.obl:after{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80px;
+  height: 80px;
+  border: 12px double rgb(183, 243, 171);
+  border-radius: 50%;
+  content: '';
+  opacity: 0;
+  -webkit-transform: translateX(-50%) translateY(-50%) scale(0.2);
+  -moz-transform: translateX(-50%) translateY(-50%) scale(0.2);
+  transform: translateX(-50%) translateY(-50%) scale(0.2);
+}
+
+a.obl:after{
+  width: 60px;
+  height: 60px;
+  border-width: 6px;
+  -webkit-transform: translateX(-50%) translateY(-50%) scale(0.8);
+  -moz-transform: translateX(-50%) translateY(-50%) scale(0.8);
+  transform: translateX(-50%) translateY(-50%) scale(0.8);
+}
+
+a.obl:before, a.obl:after{
+  -webkit-animation: pulsate 1.2s infinite;
+  -moz-animation: pulsate 1.2s infinite;
+  -ms-animation: pulsate 1.2s infinite;
+  animation: pulsate 1.5s infinite;
+}
+
+@-webkit-keyframes pulsate{
+
+30%{
+  opacity: 1;
+  -webkit-transform: translateX(-50%) translateY(-50%) scale(1);
+}
+
+  100%{
+  opacity: 0.3;
+  -webkit-transform: translateX(-50%) translateY(-50%) scale(0.5);
+  }
+
+}
+
+@-moz-keyframes pulsate{
+
+30%{
+  opacity: 1;
+  -moz-transform: translateX(-50%) translateY(-50%) scale(1);
+}
+
+  100%{
+  opacity: 0.3;
+  -moz-transform: translateX(-50%) translateY(-50%) scale(0.5);
+  }
+
+}
+
+@-ms-keyframes pulsate{
+
+30%{
+  opacity: 1;
+  -ms-transform: translateX(-50%) translateY(-50%) scale(1);
+}
+
+  100%{
+  opacity: 0.3;
+  -ms-transform: translateX(-50%) translateY(-50%) scale(0.5);
+  }
+
+}
+
+@-keyframes pulsate{
+
+30%{
+  opacity: 1;
+  transform: translateX(-50%) translateY(-50%) scale(1);
+}
+
+  100%{
+  opacity: 0.3;
+  transform: translateX(-50%) translateY(-50%) scale(0.5);
+  }
 }
