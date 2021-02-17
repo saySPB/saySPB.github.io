@@ -17,10 +17,7 @@ h1, h2, h4, h5 {
   font-family: 'Pacifico', cursive;
   text-align: center;
 }
-.logo {
-  text-align: center;
-  margin-right: 50px;
-}
+
 .pesontedan h3 {
   font-family: 'Pacifico', cursive;
   font-size: 18px;
@@ -35,10 +32,11 @@ h1, h2, h4, h5 {
   position: fixed;
   left: 80%;
   bottom: 10%;
-  font-size: 2em;
+  font-size: 3em;
   background:  #109c4d;
   border-radius: 50%;
-  padding: 10px 25px;
+  padding: 5px 16px;
+
 }
 .watsapp .fa {
   color: white;
@@ -539,7 +537,6 @@ a.obl{
   text-decoration: none;
   text-align:center;
 font-family: 'Henny Penny', cursive;
-  font-size: 22px;
   letter-spacing: 2px;
   border-bottom: 2px solid transparent;
   border-radius: 30%;
