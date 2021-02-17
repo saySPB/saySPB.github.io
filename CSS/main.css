@@ -32,17 +32,15 @@ h1, h2, h4, h5 {
 }
 .watsapp {
   position: fixed;
-  left: 75%;
+  left: 70%;
   bottom: 80%;
   font-size: 2em;
   background:  #109c4d;
   border-radius: 50%;
   padding: 15px 25px;
 }
-
-.watsapp-image a {
+.watsapp .fa {
   color: white;
-
 }
 .watsapp:hover {
   border: solid 3px white;
@@ -54,10 +52,10 @@ header {
   text-align: center;
   margin-right: 25px; 
 }
-
 main {
   text-align: center;
   margin-right: 110px;
+
 }
 
 .flower {
@@ -65,13 +63,11 @@ main {
   font-size: 24px;
   color: rgb(8, 85, 8);
 }
-
 .info {
   line-height: 250%;
   color: rgb(8, 85, 8);
   font-size: 18px;
 }
-
 .booking {
   text-align: center;
   font-size: 18px;
@@ -86,7 +82,6 @@ main {
   text-transform: uppercase;
   cursor: pointer;
 }
-
 .pesontedan-content .pre-offer {
   font-family: 'EB Garamond', serif;
   margin: 0 auto;
@@ -95,17 +90,14 @@ main {
   font-size: large;
   padding-left: 200px;
 }
-
 .offer {
   text-align: left;
   line-height: 290%;
 }
-
 .offer-1 {
   text-align: left;
   line-height: 100%;
 }
-
 .line__booking hr {
   width: 400px;
   display: flex;
@@ -124,8 +116,8 @@ border: none;
 
 .carousel {
   margin-left: 29%;
-}
 
+}
 .carousel-list {	
   list-style: none;
   width: 10000px;
@@ -153,6 +145,7 @@ border: none;
 .carousel-arrow-left, .carousel-arrow-right {
   float: left;
   padding: 5px;
+  margin-top: 60%;
 }
 
 .carousel-arrow-left:hover, .carousel-arrow-right:hover {
@@ -444,11 +437,11 @@ footer .fa-vk {
       }
 
       .carousel-element img {
-        width: 450px;
+        width: 600px;
       }
 
       .carousel-hider {
-        width: 450px;
+        width: 600px;
       }
   }
   
@@ -482,55 +475,29 @@ footer .fa-vk {
         left: 0;
       }
       .carousel-element img {
-        width: 400px;
+        width: 280px;
       }
       .carousel-hider {
-        width: 400px;
-
+        width: 560px;
+        margin: 10px;
       }
   }
   
-  /* 320px - 576px */
-  @media screen and (max-width: 576px) {
-      body,main, footer {
-          width:100%;
-      }
-      h4 {
-        font-size: 7px;
-      }
-      h2 {
-        font-size: 20px;
-      }
-      .carousel {
-        margin-top: 7%;
-      }
-      .booking {
-        width: 350px;
-        margin-left: 5%;      
-      } 
-      .navigaonusing{
-        width: 300px;
-        margin-left: 22%;      }
-      }
-      .watsapp {
-        opacity: 0;
-      }
-
-      .carousel-element img {
-        width: 400px;
-      }
-
-      .carousel-hider {
-        width: 400px;
-        margin-left: 5px;
-      }
-
-      body {
-        width: 100%;
-      }
-
-      footer {
-        margin-left: -15%;
-      }
-  }
-
+   /* 320px - 576px */
+   @media screen and (max-width: 576px) {
+    body {
+        width:100%;
+    }
+    h3 {
+      font-size: 15px;
+    }
+    .carousel {
+      margin-top: 7%;
+    }
+    .booking {
+      width: 450px;
+    }
+    .watsapp {
+      left: 80%;
+    }
+}
