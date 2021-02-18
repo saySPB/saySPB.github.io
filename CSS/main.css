@@ -146,10 +146,10 @@ border: none;
 .carousel-element img {
   border-radius: 10px;
   margin-top: 20px;
-  width: 170px;
+  width: 600px;
 }
 .carousel-hider {
-  width: 560px;
+  width: 600px;
   overflow: hidden;
   float: left;
 }
@@ -456,7 +456,13 @@ footer .fa-vk {
         margin-left: -14%;
       }
 
+      .carousel-element img {
+        width: 600px;
+      }
 
+      .carousel-hider {
+        width: 600px;
+      }
   }
   
   /* 576px - 768px */
@@ -491,7 +497,13 @@ footer .fa-vk {
       .watsapp {
         left: 0;
       }
-
+      .carousel-element img {
+        width: 290px;
+      }
+      .carousel-hider {
+        width: 600px;
+        margin: 10px;
+      }
        label {
       border: solid 1px rgb(75, 119, 9);
       max-width: 300px;
@@ -536,18 +548,18 @@ footer .fa-vk {
       bottom: 10%;
     }
     .carousel-element img {
-      width: 170px;
-      padding: 0;
+      width: 270px;
+      margin: 10;
     }
     .carousel-hider {
-      width: 360px;
+      width: 680px;
     }
     .info {
       margin-left: 30px;
     }
 
     .carousel-arrow-left, .carousel-arrow-right {
-      top: 2%;
+      top: 8%;
       margin-top: 55%;
       margin-left: 5%;
     }
