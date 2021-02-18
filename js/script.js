@@ -11,14 +11,14 @@ $(document).ready(function() {
 
 	leftUIEl.click(function() {		
 		if (currentLeftValue != maximumOffset) {
-			currentLeftValue += 600;
+			currentLeftValue += 580;
 			elementsList.animate({ left : currentLeftValue + "px"}, 500);
 		}		
 	});
 
 	rightUIEl.click(function() {		
 		if (currentLeftValue != minimumOffset) {
-			currentLeftValue -= 600;
+			currentLeftValue -= 580;
 			elementsList.animate({ left : currentLeftValue + "px"}, 500);
 		}		
 	});

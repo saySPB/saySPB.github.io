@@ -146,18 +146,19 @@ border: none;
 .carousel-element img {
   border-radius: 10px;
   margin-top: 20px;
-  width: 600px;
+  width: 170px;
 }
 .carousel-hider {
-  width: 600px;
+  width: 560px;
   overflow: hidden;
   float: left;
 }
 
+
 .carousel-arrow-left, .carousel-arrow-right {
   float: left;
   padding: 5px;
-  margin-top: 60%;
+  margin-top: 20%;
 }
 
 .carousel-arrow-left:hover, .carousel-arrow-right:hover {
@@ -335,7 +336,7 @@ hr.style-two {
 .title:before {
   /* Смещаем левую линию на 100% влево, чтобы линия 
   ** встала рядом с текстом слева */
-  margin-left: -100%;
+  margin-left:q -100%;
   /* Указываем в пикселях отступ линии от текста заголовка */
   left: -14px;
 }
@@ -455,13 +456,7 @@ footer .fa-vk {
         margin-left: -14%;
       }
 
-      .carousel-element img {
-        width: 600px;
-      }
 
-      .carousel-hider {
-        width: 600px;
-      }
   }
   
   /* 576px - 768px */
@@ -496,13 +491,7 @@ footer .fa-vk {
       .watsapp {
         left: 0;
       }
-      .carousel-element img {
-        width: 280px;
-      }
-      .carousel-hider {
-        width: 560px;
-        margin: 10px;
-      }
+
        label {
       border: solid 1px rgb(75, 119, 9);
       max-width: 300px;
