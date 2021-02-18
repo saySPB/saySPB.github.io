@@ -101,6 +101,7 @@ hr.style-volna {
   max-width: 700px;
   font-size: large;
   padding-left: 100px;
+
 }
 .offer {
   text-align: left;
@@ -508,8 +509,9 @@ footer .fa-vk {
       margin-left: 15%;
       line-height: 0;
       background: rgb(247, 236, 245);
+
     }
-   
+
   }
   
    /* 320px - 576px */
@@ -541,7 +543,7 @@ footer .fa-vk {
       width: 350px;
     }
     .watsapp {
-      left: 60%;
+      left: 70%;
       bottom: 10%;
     }
     .carousel-element img {
@@ -562,7 +564,7 @@ footer .fa-vk {
     }
     .flower h2 {
       margin-top: 30%;
-      margin-bottom: 100px;
+      margin-bottom: 50px;
     }
     label {
       font-family: 'Times New Roman', Times, serif;
