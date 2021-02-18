@@ -7,6 +7,7 @@ body {
   font-family: 'Pacifico', cursive;
   font-size: 18px;
   background: #fbf1f2;
+  
  }
  article {
   background: url('../img/vizitka-2.jpg') no-repeat top center;
@@ -56,16 +57,29 @@ main {
   margin-right: 110px;
 
 }
+hr.style-volna {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    width: 600px;
+    margin-left: 34%;
+  }
 
-.flower {
+.flower h2 {
   font-family: 'Pacifico', cursive;
   font-size: 24px;
   color: rgb(8, 85, 8);
+  margin-top: 10%;
+  margin-bottom: 70px;
 }
 .info {
   line-height: 250%;
   color: rgb(8, 85, 8);
   font-size: 18px;
+  margin-bottom: 20px;
 }
 .booking {
   text-align: center;
@@ -403,6 +417,9 @@ footer .fa-vk {
         margin-left: 0;
         margin-right: 0;
       }
+      hr.style-volna {
+        margin-left: 200px;
+      }
   }
   
   /* 768px - 992px */
@@ -413,6 +430,10 @@ footer .fa-vk {
 
       .watsapp {
          margin-left: 40px;
+      }
+
+      hr.style-volna {
+        margin-left: 150px;
       }
 
       main, footer {
@@ -448,6 +469,9 @@ footer .fa-vk {
   @media screen and (max-width: 768px) {
       .body {
           width: 540px;
+      }
+      hr.style-volna {
+        margin-left: 70px;
       }
       .carousel {
         position: relative;
@@ -485,15 +509,21 @@ footer .fa-vk {
    /* 320px - 576px */
    @media screen and (max-width: 576px) {
     body {
-        width: 100%;
+      width: 100%;
+      margin-right: 0;
+    }
+    header {
+      margin-right: 0;
+    }
+    hr.style-volna {
+      margin-left: 40px;
+      width: 80%;
     }
     footer ul{
       margin-left: -10%;
       padding-left: 0;
     }
-    .flower {
-      top: ;
-    }
+
     h3, h2 {
       font-size: 17px;
       text-align: center;
@@ -525,8 +555,17 @@ footer .fa-vk {
       margin-left: 5%;
     }
     .flower h2 {
-      visibility: collapse;
+      margin-top: 30%;
+      margin-bottom: 100px;
     }
+    label {
+      border: solid 1px rgb(75, 119, 9);
+      max-width: 300px;
+      margin-left: 15%;
+      line-height: 0;
+      background: rgb(247, 236, 245);
+    }
+   
 }
 
 /* click */

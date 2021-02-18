@@ -3,7 +3,7 @@ $(document).ready(function() {
 	var rightUIEl = $('.carousel-arrow-right');
 	var elementsList = $('.carousel-list');
 
-	var pixelsOffset = 390;
+	var pixelsOffset = 600;
 	var currentLeftValue = 0;
 	var elementsCount = elementsList.find('li').length;
 	var minimumOffset = - ((elementsCount - 1) * pixelsOffset);
@@ -11,14 +11,14 @@ $(document).ready(function() {
 
 	leftUIEl.click(function() {		
 		if (currentLeftValue != maximumOffset) {
-			currentLeftValue += 390;
+			currentLeftValue += 600;
 			elementsList.animate({ left : currentLeftValue + "px"}, 500);
 		}		
 	});
 
 	rightUIEl.click(function() {		
 		if (currentLeftValue != minimumOffset) {
-			currentLeftValue -= 390;
+			currentLeftValue -= 600;
 			elementsList.animate({ left : currentLeftValue + "px"}, 500);
 		}		
 	});
