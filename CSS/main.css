@@ -570,7 +570,7 @@ footer .fa-vk {
     label {
       font-family: 'Times New Roman', Times, serif;
       border: solid 1px rgb(75, 119, 9);
-      max-width: 350px;
+      max-width: 700px;
       margin-left: 10%;
       line-height: 0;
       background: rgb(247, 236, 245);
@@ -580,9 +580,12 @@ footer .fa-vk {
       width: 270px;
     }
     .carousel-hider {
-      width: 680px;
+      width: 800px;
       overflow-x: auto;
       overflow: scroll;
+    }
+    .navigaonusing .pesontedan .carousel-list {
+      left: -10%;
     }
     .carousel-list {
       margin-left: 3%;
@@ -591,6 +594,9 @@ footer .fa-vk {
       visibility: hidden;
       padding: 0;
     }
+    .carousel-arrow-left, .carousel-arrow-right {
+      padding: 0;   
+ }
 }
 
 /* click */
