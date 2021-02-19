@@ -538,8 +538,8 @@ footer .fa-vk {
       margin-left: 40px;
       width: 80%;
     }
-    footer ul{
-      margin-left: -10%;
+    footer ul {
+      margin-left: -14%;
       padding-left: 0;
     }
 
@@ -554,8 +554,8 @@ footer .fa-vk {
     .order a {
       font-size: 13px;
     }
-    .order {
-      margin-left: 0;
+    .order, .links {
+      margin-left: -7%;
       padding: 0;
     }
 
