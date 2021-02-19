@@ -86,13 +86,30 @@ hr.style-volna {
   text-shadow: 1px 1px 2px rgb(243, 177, 227);
   box-shadow: 1px 1px 2px rgb(243, 177, 227);;
   background: rgb(117, 192, 117);
-  width: 650px;
-  height: 50px;
   border-radius: 25px;
-  margin-top: 20px;
   margin-left: 2%;
   text-transform: uppercase;
   cursor: pointer;
+
+}
+.order {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  list-style: none;
+}
+.order a {
+  margin-left: 0;
+  padding: 15px 7%;
+  text-decoration: none;
+
+}
+.order i {
+  margin-right: 10px;
+  font-size: 1.5em;
+}
+
+.line {
+  margin-left: 40px;
 }
 .pesontedan-content .pre-offer {
   font-family: 'EB Garamond', serif;
@@ -352,7 +369,7 @@ footer {
 }
 footer ul {
   position: absolute;
-  left: 42%;
+  left: 44%;
 
 }
 footer li{
@@ -462,29 +479,23 @@ footer .fa-vk {
       hr.style-volna {
         margin-left: 70px;
       }
-      .carousel {
-        position: relative;
-        margin-top: 5%;
+      .order a {
+        margin-bottom: 20px;
       }
-      .carousel-arrow-right {
-        position: absolute;
-        right: 25%;
-        bottom: 97%;
-      }
-      .carousel-arrow-left {
-        position: absolute;
-        left: 0%;
-        bottom: 97%;
+
+      .carousel-hider {
+        overflow-x: auto;
+        overflow: scroll;
       }
       .carousel-arrow-left, .carousel-arrow-right {
-        text-align: justify;
+        visibility: hidden;
       }
+
       .booking {
         width: 400px;
         margin-left: 20px;        
       }
-      .watsapp {
-      }
+
       .carousel-element img {
         width: 290px;
       }
@@ -539,12 +550,15 @@ footer .fa-vk {
     .carousel {
       margin: 0 0 0px 10px;
     }
-    .booking {
-      width: 350px;
+
+    .order a {
+      font-size: 13px;
     }
-    .links button{
-      margin-left: 12%;
+    .order {
+      margin-left: 0;
+      padding: 0;
     }
+
 
     .info {
       margin-left: 30px;
@@ -573,8 +587,9 @@ footer .fa-vk {
     .carousel-list {
       margin-left: 3%;
     }
-    .carousel-arrow-left, .carousel-arrow-right {
+    .carousel-arrow-left .fa, .carousel-arrow-right .fa {
       visibility: hidden;
+      padding: 0;
     }
 }
 
