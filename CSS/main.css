@@ -105,10 +105,11 @@ hr.style-volna {
 }
 .offer {
   text-align: left;
-  line-height: 150%;
+  line-height: 190%;
 }
 .offer-1 {
   text-align: left;
+  line-height: 190%;
 }
 .line__booking hr {
   width: 400px;
@@ -409,10 +410,6 @@ footer .fa-vk {
         left: 35%;
       }
 
-      .watsapp {
-        margin-left: 150px;
-      }
-
       .carousel-arrow-right, .carousel-arrow-left {
         margin-left: 0;
         margin-right: 0;
@@ -428,9 +425,6 @@ footer .fa-vk {
           width: 720px;
       }
 
-      .watsapp {
-         margin-left: 40px;
-      }
 
       hr.style-volna {
         margin-left: 150px;
@@ -495,7 +489,6 @@ footer .fa-vk {
         margin-left: 20px;        
       }
       .watsapp {
-        left: 0;
       }
       .carousel-element img {
         width: 290px;
@@ -522,10 +515,6 @@ footer .fa-vk {
       margin-right: 0;
     }
     
-    
-
-
-    
     header {
       margin-right: 0;
     }
@@ -549,8 +538,7 @@ footer .fa-vk {
       width: 350px;
     }
     .watsapp {
-      left: 75%;
-      bottom: 10%;
+      
     }
 
     .info {
@@ -579,9 +567,7 @@ footer .fa-vk {
       overflow: scroll;
     }
     .carousel-arrow-left, .carousel-arrow-right {
-      top: 8%;
-      margin-top: 55%;
-      margin-left: 5%;
+      visibility: hidden;
     }
 }
 
