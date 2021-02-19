@@ -517,7 +517,7 @@ footer .fa-vk {
       margin-left: 1%;
     }
     .pesontedan h3 {
-      margin-left: 20px;
+      margin-left: 40px;
     }
 
     header {
@@ -542,11 +542,8 @@ footer .fa-vk {
     .booking {
       width: 350px;
     }
-    .watsapp {
-      
-    }
     .links button{
-      margin-left: 10%;
+      margin-left: 12%;
     }
 
     .info {
@@ -567,7 +564,6 @@ footer .fa-vk {
     }
     .carousel-element img {
       width: 270px;
-      margin: 10;
     }
     .carousel-hider {
       width: 680px;
