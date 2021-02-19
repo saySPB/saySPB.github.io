@@ -521,6 +521,11 @@ footer .fa-vk {
       width: 100%;
       margin-right: 0;
     }
+    
+    
+
+
+    
     header {
       margin-right: 0;
     }
@@ -537,7 +542,9 @@ footer .fa-vk {
       font-size: 17px;
       text-align: center;
     }
-
+    .carousel {
+      margin: 0 0 40px 10px;
+    }
     .booking {
       width: 350px;
     }
@@ -562,27 +569,14 @@ footer .fa-vk {
       background: rgb(247, 236, 245);
       padding: 0;
     }
-    .carousel, .carousel-hider {
-      margin: 0 0 40px 10px;
-      overflow-x:hidden 
-    }
-    .carousel-list {
-      padding: 1rem;
-      margin: 0 auto;
-      overflow-x: auto;
-      //-webkit-overflow-scrolling: touch;
-      outline: solid 1px;
-    }
-    * {
-      box-sizing: border-box;
-
-    }
     .carousel-element img {
       width: 270px;
       margin: 10;
     }
     .carousel-hider {
       width: 680px;
+      overflow-x: auto;
+      overflow: scroll;
     }
     .carousel-arrow-left, .carousel-arrow-right {
       top: 8%;
