@@ -37,7 +37,7 @@ h1, h2, h4, h5 {
   background:  #109c4d;
   border-radius: 50%;
   padding: 5px 16px;
-
+  z-index: 1;
 }
 .watsapp .fa {
   color: white;
@@ -50,11 +50,9 @@ h1, h2, h4, h5 {
 header {
   padding-top: 120px;
   text-align: center;
-  margin-right: 25px; 
 }
 main {
   text-align: center;
-  margin-right: 110px;
 
 }
 hr.style-volna {
@@ -73,7 +71,7 @@ hr.style-volna {
   font-size: 24px;
   color: rgb(8, 85, 8);
   margin-top: 10%;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 .info {
   line-height: 250%;
@@ -92,24 +90,24 @@ hr.style-volna {
   height: 50px;
   border-radius: 25px;
   margin-top: 20px;
+  margin-left: 2%;
   text-transform: uppercase;
   cursor: pointer;
 }
 .pesontedan-content .pre-offer {
   font-family: 'EB Garamond', serif;
-  list-style: none;
   max-width: 700px;
   font-size: large;
   padding-left: 100px;
-
+  text-align: left;
+  margin-left: 28%;
 }
 .offer {
-  text-align: left;
   line-height: 190%;
 }
 .offer-1 {
-  text-align: left;
   line-height: 190%;
+  text-align: left;
 }
 .line__booking hr {
   width: 400px;
@@ -283,7 +281,7 @@ border: none;
 }
 
 .link button{
-  margin-left: 5%;
+
 }
 .hrr {
   position: relative;
@@ -430,9 +428,6 @@ footer .fa-vk {
         margin-left: 150px;
       }
 
-      main, footer {
-        margin-right: -100px;
-      }
 
       .carousel {
        margin-left: 5%;
@@ -514,7 +509,14 @@ footer .fa-vk {
       width: 100%;
       margin-right: 0;
     }
-    
+    .pesontedan-content .pre-offer {
+
+      margin-left: 1%;
+    }
+    .pesontedan h3 {
+      margin-left: 20px;
+    }
+
     header {
       margin-right: 0;
     }
@@ -532,7 +534,7 @@ footer .fa-vk {
       text-align: center;
     }
     .carousel {
-      margin: 0 0 40px 10px;
+      margin: 0 0 0px 10px;
     }
     .booking {
       width: 350px;
@@ -540,13 +542,16 @@ footer .fa-vk {
     .watsapp {
       
     }
+    .links button{
+      margin-left: 10%;
+    }
 
     .info {
       margin-left: 30px;
     }
     .flower h2 {
       margin-top: 30%;
-      margin-bottom: 50px;
+
     }
     label {
       font-family: 'Times New Roman', Times, serif;
@@ -565,6 +570,9 @@ footer .fa-vk {
       width: 680px;
       overflow-x: auto;
       overflow: scroll;
+    }
+    .carousel-list {
+      margin-left: 3%;
     }
     .carousel-arrow-left, .carousel-arrow-right {
       visibility: hidden;
