@@ -537,9 +537,7 @@ footer .fa-vk {
       font-size: 17px;
       text-align: center;
     }
-    .carousel {
-      margin: 0 0 40px 10px;
-    }
+
     .booking {
       width: 350px;
     }
@@ -547,21 +545,9 @@ footer .fa-vk {
       left: 75%;
       bottom: 10%;
     }
-    .carousel-element img {
-      width: 270px;
-      margin: 10;
-    }
-    .carousel-hider {
-      width: 680px;
-    }
+
     .info {
       margin-left: 30px;
-    }
-
-    .carousel-arrow-left, .carousel-arrow-right {
-      top: 8%;
-      margin-top: 55%;
-      margin-left: 5%;
     }
     .flower h2 {
       margin-top: 30%;
@@ -576,7 +562,33 @@ footer .fa-vk {
       background: rgb(247, 236, 245);
       padding: 0;
     }
-   
+    .carousel, .carousel-hider {
+      margin: 0 0 40px 10px;
+      overflow-x:hidden 
+    }
+    .carousel-list {
+      padding: 1rem;
+      margin: 0 auto;
+      overflow-x: auto;
+      //-webkit-overflow-scrolling: touch;
+      outline: solid 1px;
+    }
+    * {
+      box-sizing: border-box;
+
+    }
+    .carousel-element img {
+      width: 270px;
+      margin: 10;
+    }
+    .carousel-hider {
+      width: 680px;
+    }
+    .carousel-arrow-left, .carousel-arrow-right {
+      top: 8%;
+      margin-top: 55%;
+      margin-left: 5%;
+    }
 }
 
 /* click */
