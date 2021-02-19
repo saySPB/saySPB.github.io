@@ -550,11 +550,13 @@ footer .fa-vk {
     .carousel {
       margin: 0 0 0px 10px;
     }
-
+    .line {
+      margin-left: -4%;
+    }
     .order a {
       font-size: 13px;
     }
-    .order, .links {
+     .links {
       margin-left: -7%;
       padding: 0;
     }
