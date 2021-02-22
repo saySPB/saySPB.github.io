@@ -33,10 +33,10 @@ h1, h2, h4, h5 {
   position: fixed;
   left: 80%;
   bottom: 10%;
-  font-size: 3em;
+  font-size: 2.5em;
   background:  #109c4d;
   border-radius: 50%;
-  padding: 5px 16px;
+  padding: 2px 20px;
   z-index: 1;
 }
 .watsapp .fa {
@@ -73,7 +73,7 @@ hr.style-volna {
 .flower h2 {
   font-family: 'Pacifico', cursive;
   font-size: 24px;
-  color: rgb(88, 46, 46);
+  color: rgb(156, 91, 48);
   margin-top: 10%;
   margin-bottom: 30px;
 }
@@ -436,6 +436,9 @@ footer .fa-vk {
       hr.style-volna {
         margin-left: 200px;
       }
+      .watsapp {
+        z-index: 1;
+      }
   }
   
   /* 768px - 992px */
@@ -443,35 +446,29 @@ footer .fa-vk {
       .body {
           width: 720px;
       }
-
-
       hr.style-volna {
         margin-left: 150px;
       }
-
-
       .carousel {
        margin-left: 5%;
       }
-
       .pesontedan, footer  {
         margin-left: -7%;
       }
-
       .link {
         margin-left: -18%;
       }
-
       .hr-middle {
         margin-left: -14%;
       }
-
       .carousel-element img {
         width: 600px;
       }
-
       .carousel-hider {
         width: 600px;
+      }
+      header {
+        padding-top: 150px;
       }
   }
   
@@ -486,13 +483,15 @@ footer .fa-vk {
       .order a {
         margin-bottom: 20px;
       }
-
+      .order {
+        margin-top: 40px;
+      }
       .carousel-hider {
         overflow-x: auto;
         overflow: scroll;
       }
       .carousel-arrow-left, .carousel-arrow-right {
-        visibility: hidden;
+        z-index: 0;
       }
 
       .booking {
@@ -509,7 +508,9 @@ footer .fa-vk {
         overflow-x: auto;
         overflow: scroll;
       }
-      
+      .flower h2 {
+        margin-top: 20%;
+      }
        label {
       border: solid 1px rgb(75, 119, 9);
       max-width: 500px;
@@ -562,7 +563,7 @@ footer .fa-vk {
     }
      .links {
       margin-left: -7%;
-      padding: 0;
+      margin-top: 20px;
     }
 
 
@@ -597,11 +598,9 @@ footer .fa-vk {
       margin-left: 3%;
     }
     .carousel-arrow-left .fa, .carousel-arrow-right .fa {
-      visibility: hidden;
+      display: none;
       padding: 0;
     }
-    .carousel-arrow-left, .carousel-arrow-right {
-      padding: 0;   
  }
 }
 
