@@ -529,9 +529,15 @@ footer .fa-vk {
       margin-right: 0;
     }
     .pesontedan-content .pre-offer {
-
+      padding-left: 20px;
       margin-left: 1%;
+      list-style: none;
     }
+    .pesontedan-content {
+      margin-left: 20px;
+      text-align: center;
+    }
+
     .pesontedan h3 {
       margin-left: 40px;
     }
