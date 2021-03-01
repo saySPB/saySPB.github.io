@@ -15,8 +15,8 @@ body {
  }
 
 h1, h2, h4, h5 {
-  font-family: 'Pacifico', cursive;
-  text-align: center;
+  font-family: 'Newsreader', serif;
+    text-align: center;
 }
 
 .pesontedan h3 {
@@ -94,7 +94,7 @@ hr.style-volna {
   margin-left: 2%;
   text-transform: uppercase;
   cursor: pointer;
-
+  font-family: 'Newsreader', serif;
 }
 .order {
   margin-top: 20px;
